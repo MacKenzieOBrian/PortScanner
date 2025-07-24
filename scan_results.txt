@@ -1,0 +1,11 @@
+Port Scan Results for localhost
+==================================================
+
+Scan Type: TCP_CONNECT
+Scan Time: 2025-07-21 09:36:26
+Duration: 0.10 seconds
+Open Ports: 1
+
+Port 53/tcp - open - domain
+  Banner: Banner grab failed
+--------------------------------------------------
