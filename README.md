@@ -45,26 +45,6 @@ Save results in CSV format:
 python enhanced_portscanner.py -o csv example.com > scan_results.csv
 ```
 
-###  Command-Line 
-
-```
-usage: enhanced_portscanner.py [-h] [-p PORTS] [-t THREADS] [-T TIMEOUT] [-o {text,json,csv}] target
-
-## Cybersecurity Importance
-
-Port scanning is a fundamental aspect of network security and ethical hacking. Understanding how port scanning works is crucial for both offensive and defensive security professionals:
-
-### For Security Professionals
-- **Vulnerability Assessment**: Identify potentially vulnerable services
-- **Network Mapping**: Understand the attack surface of a network
-- **Security Auditing**: Verify firewall rules and network security controls
-- **Incident Response**: Detect unauthorized services or potential breaches
-
-### Key Security Concepts Demonstrated
-1. **Attack Surface Analysis**: The tool helps identify potential entry points that attackers might exploit.
-2. **Service Identification**: Understanding what services are running is the first step in securing them.
-3. **Defense Mechanisms**: The project includes features that demonstrate understanding of network security controls.
-
 My implementation demonstrates the fundamental concept of banner grabbing, similar to Nmap's -sV --script=banner functionality. While Nmap uses an extensive database of service fingerprints and supports multiple protocols, my implementation shows the core concept by sending a simple HTTP HEAD request to gather basic service information. This approach is similar to how Nmap operates but is implemented from scratch to demonstrate understanding of the underlying network protocols
 
 https://www.studytonight.com/network-programming-in-python/building-a-port-scanner
