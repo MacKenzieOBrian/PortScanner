@@ -1,6 +1,3 @@
-# Enhanced Port Scanner
-
-A professional-grade port scanning tool with advanced features for cybersecurity professionals and enthusiasts. This tool helps identify open ports, running services, and potential vulnerabilities on target systems.
 
 ## Features
 
@@ -44,8 +41,6 @@ Save results in CSV format:
 ```bash
 python enhanced_portscanner.py -o csv example.com > scan_results.csv
 ```
-
-My implementation demonstrates the fundamental concept of banner grabbing, similar to Nmap's -sV --script=banner functionality. While Nmap uses an extensive database of service fingerprints and supports multiple protocols, my implementation shows the core concept by sending a simple HTTP HEAD request to gather basic service information. This approach is similar to how Nmap operates but is implemented from scratch to demonstrate understanding of the underlying network protocols
 
 https://www.studytonight.com/network-programming-in-python/building-a-port-scanner
 https://medium.com/h7w/building-a-simple-python-tool-for-network-reconnaissance-capturing-server-banners-4f0a300803f0
